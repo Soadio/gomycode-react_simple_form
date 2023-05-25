@@ -1,6 +1,8 @@
+import "./App.css";
+
 export default function Layout(props) {
   return (
-    <main>
+    <div className="app">
       <header>
         <h1>Simple Form</h1>
       </header>
@@ -8,6 +10,6 @@ export default function Layout(props) {
       <footer>
         <p>Footer</p>
       </footer>
-    </main>
+    </div>
   );
 }
